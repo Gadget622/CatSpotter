@@ -1,0 +1,20 @@
+{
+    "description": "A simple dataset with two images of a cat and a dog.",
+    "license": "CC BY-SA 4.0",
+    "keywords": [
+        "image classification",
+        "pets"
+    ],
+    "features": {
+        "image": {
+            "_type": "Image"
+        },
+        "label": {
+            "names": [
+                "cat",
+                "dog"
+            ],
+            "_type": "ClassLabel"
+        }
+    }
+}
